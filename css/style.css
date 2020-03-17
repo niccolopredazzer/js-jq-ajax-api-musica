@@ -6,6 +6,7 @@
 
 .container {
     width: 100vw;
+    min-height: 100vh;
     background-color: #1e2d3b;
 }
 
@@ -24,6 +25,11 @@ header .logo {
 header .logo img {
     height: 60px;
     padding-top: 5px;
+}
+
+.select {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .card-container {

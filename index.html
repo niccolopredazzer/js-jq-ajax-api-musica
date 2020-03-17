@@ -13,11 +13,21 @@
                 <div class="logo">
                     <img src="img/logo-spot.png" alt="logo-spot">
                 </div>
+                <div class="select">
+                    <select class="selettore-genere">
+                        <option value="">Filtra per genere</option>
+                        <option value="Rock">Rock</option>
+                        <option value="Metal">Metal</option>
+                        <option value="Pop">Pop</option>
+                        <option value="Jazz">Jazz</option>
+                    </select>
+                </div>
             </header>
             <div class="card-container">
 
             </div>
         </div>
+
 
         <script id="card-template" type="text/x-handlebars-template">
             <div class="card" data-genere="{{genere}}">
