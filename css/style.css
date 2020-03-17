@@ -5,7 +5,6 @@
 }
 
 .container {
-    height: 100vh;
     width: 100vw;
     background-color: #1e2d3b;
 }
@@ -28,8 +27,7 @@ header .logo img {
 }
 
 .card-container {
-    width: 70%;
-
+    width: 60%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -37,7 +35,7 @@ header .logo img {
 }
 
 .card {
-    height: 300px;
+    height: 250px;
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -45,9 +43,19 @@ header .logo img {
     border-radius: 5px;
     background-color: #2e3a46;
     border: 1px solid white;
-    margin: 10px;
+    margin: 30px;
 }
 
 .card img {
     width: 90%;
+}
+
+.card p {
+    color: white;
+    font-size: 16px;
+}
+
+.card span {
+    color: lightgrey;
+    font-size: 13px;
 }
