@@ -15,14 +15,18 @@
                 </div>
             </header>
             <div class="card-container">
-                <div class="container">
-                    
-                </div>
+
             </div>
         </div>
 
-
-
+        <script id="card-template" type="text/x-handlebars-template">
+            <div class="card" data-genere="{{genere}}">
+                <img src="{{immagine}}" alt="{{nomeAlbum}} cover">
+                <p>{{titolo}}</p>
+                <span>{{autore}}</span>
+                <span>{{anno}}</span>
+            </div>
+        </script>
 
 
 

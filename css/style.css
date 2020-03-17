@@ -26,3 +26,28 @@ header .logo img {
     height: 60px;
     padding-top: 5px;
 }
+
+.card-container {
+    width: 70%;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #2e3a46;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.card img {
+    width: 90%;
+}
