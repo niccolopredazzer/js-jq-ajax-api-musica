@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1e2d3b;
+}
+
+header {
+    background-color: #2e3a46;
+    height: 70px;
+    width: 100%;
+}
+
+header .logo {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header .logo img {
+    height: 60px;
+    padding-top: 5px;
+}
